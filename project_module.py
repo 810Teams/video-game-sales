@@ -1,6 +1,6 @@
 """
 'project' class file
-designed for PSIT Project
+designed for PSIT Project: Video Game Sales
 by Teerapat K.
 """
 
