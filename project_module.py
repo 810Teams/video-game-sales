@@ -1,6 +1,7 @@
 """
 'project' class file
 designed for PSIT Project: Video Game Sales
+version: 1.0.0
 by Teerapat K.
 """
 
@@ -49,24 +50,27 @@ class project:
         print("  --> WARNING: Index 0 must be <platform>, other indexes must be a 'int' or 'float'.")
         print("  --> EXAMPLE: [[<platform>, <int/float values>, ...], ...]\n")
 
+        print(" project.platform_convert_df(<DataFrame>)")
+        print("  --> Returns a platform-converted data frame\n")
+
     def count_list(data_frame, key, columns):
-        """ Return count """
+        """ Returns count """
         if len(columns) == 1:
             columns = columns[0]
         return numpy.array(data_frame.groupby(key, as_index=False).count()[columns]).tolist()
 
     def sum_list(data_frame, key, columns):
-        """ Return sum """
+        """ Returns sum """
         if len(columns) == 1:
             columns = columns[0]
         return numpy.array(data_frame.groupby(key, as_index=False).sum()[columns]).tolist()
 
     def add_relative(values):
-        """ Add a[i] with b[i] to get x[i] """
+        """ Returns an index-relative value-summed of the input list. """
         return [sum([j[i] for j in values]) for i in range(len(values[0]))]
 
     def platform_convert(platform):
-        """ Return platform type of a single platform"""
+        """ Returns a platform type of a single platform"""
         return ('HomeVideoGameConsoles' if platform in project.consoles
            else 'HandheldGameConsoles'  if platform in project.handhelds
            else 'MicrosoftWindows'      if platform in project.windows
@@ -79,3 +83,13 @@ class project:
         return [['HomeVideoGameConsoles'] + project.add_relative([i[1::] for i in data_list if i[0] == 'HomeVideoGameConsoles']),
                 ['HandheldGameConsoles']  + project.add_relative([i[1::] for i in data_list if i[0] == 'HandheldGameConsoles']),
                 ['MicrosoftWindows']      + project.add_relative([i[1::] for i in data_list if i[0] == 'MicrosoftWindows'])] if merge else data_list
+
+    def platform_convert_df(data_frame):
+        """ Returns a platform-converted data frame """
+        for i in project.consoles:
+            data_frame = data_frame.replace(i, 'HomeVideoGameConsoles')
+        for i in project.handhelds:
+            data_frame = data_frame.replace(i, 'HandheldGameConsoles')
+        for i in project.windows:
+            data_frame = data_frame.replace(i, 'MicrosoftWindows')
+        return data_frame
