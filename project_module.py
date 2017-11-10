@@ -8,6 +8,7 @@ import numpy, pandas
 
 class project:
     """ 'project' class """
+    platform_types = ['HomeVideoGameConsoles', 'HandheldGameConsoles', 'MicrosoftWindows']
     consoles  = ['2600', '3DO', 'DC', 'GC', 'GEN', 'N64',
                  'NES', 'NG', 'PCFX', 'PS', 'PS2', 'PS3',
                  'PS4', 'SAT', 'SCD', 'SNES', 'TG16', 'Wii',
@@ -22,7 +23,12 @@ class project:
         print("  'Project' Custom Module  ")
         print("      for PSIT project     ")
         print("       by Teerapat K.      ")
-        print(" --------------------------")
+        print(" --------------------------\n")
+
+        print(" project.platform_types")
+        print(" project.consoles")
+        print(" project.handhelds")
+        print(" project.windows\n")
 
         print(" project.count_list(<DataFrame>, <key>, <list_of_values>)")
         print("  --> Returns a counted data frame in list format.\n")
@@ -38,7 +44,7 @@ class project:
         print(" project.platform_convert(<platform>)")
         print("  --> Returns a platform type from a single platform.\n")
 
-        print(" project.platform_convert_list(<data_list>)")
+        print(" project.platform_convert_list(<data_list>, merge=True)")
         print("  --> Returns a data-merged list, which platforms have been converted to platform types.")
         print("  --> WARNING: Index 0 must be <platform>, other indexes must be a 'int' or 'float'.")
         print("  --> EXAMPLE: [[<platform>, <int/float values>, ...], ...]\n")
@@ -61,19 +67,15 @@ class project:
 
     def platform_convert(platform):
         """ Return platform type of a single platform"""
-        if platform in project.consoles:
-            return 'HomeVideoGameConsoles'
-        elif platform in project.handhelds:
-            return 'HandheldGameConsoles'
-        elif platform in project.windows:
-            return 'MicrosoftWindows'
-        else:
-            return None
+        return ('HomeVideoGameConsoles' if platform in project.consoles
+           else 'HandheldGameConsoles'  if platform in project.handhelds
+           else 'MicrosoftWindows'      if platform in project.windows
+           else None)
 
-    def platform_convert_list(data_list):
+    def platform_convert_list(data_list, merge=True):
         """ Convert all platforms to platform type of a list and merge"""
         data_list = [[project.platform_convert(data_list[i][0])]+data_list[i][1::] for i in range(len(data_list))]
 
         return [['HomeVideoGameConsoles'] + project.add_relative([i[1::] for i in data_list if i[0] == 'HomeVideoGameConsoles']),
                 ['HandheldGameConsoles']  + project.add_relative([i[1::] for i in data_list if i[0] == 'HandheldGameConsoles']),
-                ['MicrosoftWindows']      + project.add_relative([i[1::] for i in data_list if i[0] == 'MicrosoftWindows'])]
+                ['MicrosoftWindows']      + project.add_relative([i[1::] for i in data_list if i[0] == 'MicrosoftWindows'])] if merge else data_list
