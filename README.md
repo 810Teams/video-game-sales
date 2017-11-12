@@ -1,2 +1,4 @@
 # Video-Game-Sales
-Data Analysis of video game sales as IT@KMITL PSIT Project 2017.
+This project is a part of the subject "Problem Solving in Information Technology", Faculty of Information Technology, KMITL.
+
+Project documents: https://goo.gl/WEnczC
