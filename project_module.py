@@ -1,15 +1,12 @@
 """
 'project' class file
 designed for PSIT Project: Video Game Sales
-version: 1.0.0
+version: 2.0
 by Teerapat K.
 """
 
-import numpy, pandas
-
 class project:
     """ 'project' class """
-    platform_types = ['HomeVideoGameConsoles', 'HandheldGameConsoles', 'MicrosoftWindows']
     consoles  = ['2600', '3DO', 'DC', 'GC', 'GEN', 'N64',
                  'NES', 'NG', 'PCFX', 'PS', 'PS2', 'PS3',
                  'PS4', 'SAT', 'SCD', 'SNES', 'TG16', 'Wii',
@@ -17,53 +14,23 @@ class project:
     handhelds = ['3DS', 'DS', 'GB', 'GBA', 'GG', 'PSP',
                  'PSV', 'WS']
     windows   = ['PC']
+    url       = 'https://goo.gl/PMpp2L'
 
     def help():
         """ Get help """
-        print(" --------------------------")
-        print("  'Project' Custom Module  ")
-        print("      for PSIT project     ")
-        print("       by Teerapat K.      ")
-        print(" --------------------------\n")
+        print("Visit {} for all PSIT project documents.".format(project.url))
 
-        print(" project.platform_types")
-        print(" project.consoles")
-        print(" project.handhelds")
-        print(" project.windows\n")
+    def platform_convert_df(data_frame):
+        """ Returns a platform-converted data frame """
+        for i in project.consoles:
+            data_frame = data_frame.replace(i, 'HomeVideoGameConsoles')
+        for i in project.handhelds:
+            data_frame = data_frame.replace(i, 'HandheldGameConsoles')
+        for i in project.windows:
+            data_frame = data_frame.replace(i, 'MicrosoftWindows')
+        return data_frame
 
-        print(" project.count_list(<DataFrame>, <key>, <list_of_values>)")
-        print("  --> Returns a counted data frame in list format.\n")
-
-        print(" project.sum_list(<DataFrame>, <key>, <list_of_values>)")
-        print("  --> Returns a summed data frame in list format.\n")
-
-        print(" project.add_relative(<list>)")
-        print("  --> Returns an index-relative value-summed of the input list.")
-        print("  --> EXAMPLE: pass-in: [[a, b, c], [d, e, f], [g, h, i]]")
-        print("               returns: [a+d+g, b+e+h, c+f+i]\n")
-
-        print(" project.platform_convert(<platform>)")
-        print("  --> Returns a platform type from a single platform.\n")
-
-        print(" project.platform_convert_list(<data_list>, merge=True)")
-        print("  --> Returns a data-merged list, which platforms have been converted to platform types.")
-        print("  --> WARNING: Index 0 must be <platform>, other indexes must be a 'int' or 'float'.")
-        print("  --> EXAMPLE: [[<platform>, <int/float values>, ...], ...]\n")
-
-        print(" project.platform_convert_df(<DataFrame>)")
-        print("  --> Returns a platform-converted data frame\n")
-
-    def count_list(data_frame, key, columns):
-        """ Returns count """
-        if len(columns) == 1:
-            columns = columns[0]
-        return numpy.array(data_frame.groupby(key, as_index=False).count()[columns]).tolist()
-
-    def sum_list(data_frame, key, columns):
-        """ Returns sum """
-        if len(columns) == 1:
-            columns = columns[0]
-        return numpy.array(data_frame.groupby(key, as_index=False).sum()[columns]).tolist()
+    #Below here are more advanced functions
 
     def add_relative(values):
         """ Returns an index-relative value-summed of the input list. """
@@ -78,18 +45,10 @@ class project:
 
     def platform_convert_list(data_list, merge=True):
         """ Convert all platforms to platform type of a list and merge"""
-        data_list = [[project.platform_convert(data_list[i][0])]+data_list[i][1::] for i in range(len(data_list))]
+        index = [i for i in range(len(data_list[0])) if isinstance(data_list[0][i], str)][0]
 
-        return [['HomeVideoGameConsoles'] + project.add_relative([i[1::] for i in data_list if i[0] == 'HomeVideoGameConsoles']),
-                ['HandheldGameConsoles']  + project.add_relative([i[1::] for i in data_list if i[0] == 'HandheldGameConsoles']),
-                ['MicrosoftWindows']      + project.add_relative([i[1::] for i in data_list if i[0] == 'MicrosoftWindows'])] if merge else data_list
+        data_list = [data_list[i][0:index] + [project.platform_convert(data_list[i][index])] + data_list[i][index+1::] for i in range(len(data_list))]
 
-    def platform_convert_df(data_frame):
-        """ Returns a platform-converted data frame """
-        for i in project.consoles:
-            data_frame = data_frame.replace(i, 'HomeVideoGameConsoles')
-        for i in project.handhelds:
-            data_frame = data_frame.replace(i, 'HandheldGameConsoles')
-        for i in project.windows:
-            data_frame = data_frame.replace(i, 'MicrosoftWindows')
-        return data_frame
+        return [project.add_relative([i[0:index] for i in data_list if i[index] == 'HomeVideoGameConsoles']) + ['HomeVideoGameConsoles'] + project.add_relative([i[index+1::] for i in data_list if i[index] == 'HomeVideoGameConsoles']),
+                project.add_relative([i[0:index] for i in data_list if i[index] == 'HandheldGameConsoles'])  + ['HandheldGameConsoles']  + project.add_relative([i[index+1::] for i in data_list if i[index] == 'HandheldGameConsoles']),
+                project.add_relative([i[0:index] for i in data_list if i[index] == 'MicrosoftWindows'])      + ['MicrosoftWindows']      + project.add_relative([i[index+1::] for i in data_list if i[index] == 'MicrosoftWindows'])] if merge else data_list
