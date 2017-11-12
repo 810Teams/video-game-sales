@@ -43,7 +43,7 @@ def create_chart(data_frame):
     chart.show_legend = False
 
     #Adding data to a chart
-    chart.add('Average', [i[1] for i in sorted(data)])
+    chart.add('Overall', [i[1] for i in sorted(data)])
 
     #Render
     chart.render_to_file('avgsales_all_year.svg')

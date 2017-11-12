@@ -50,7 +50,7 @@ def create_chart(data_frame):
     chart.add('Handheld Game Consoles', [i[1] for i in sorted(data_handhelds)])
     chart.add('Home Video Game Consoles', [i[1] for i in sorted(data_consoles)])
     chart.add('Microsoft Windows', [i[1] for i in sorted(data_windows)])
-    chart.add('Average', [i[1] for i in sorted(data)])
+    chart.add('Overall', [i[1] for i in sorted(data)])
 
     #Render
     chart.render_to_file('avgsales_platform_all_year.svg')
