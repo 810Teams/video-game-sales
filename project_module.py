@@ -1,7 +1,7 @@
 """
 'project' class file
 designed for PSIT Project: Video Game Sales
-version: 2.0
+version: 2.1
 by Teerapat K.
 """
 
@@ -22,13 +22,18 @@ class project:
 
     def platform_convert_df(data_frame):
         """ Returns a platform-converted data frame """
-        for i in project.consoles:
-            data_frame = data_frame.replace(i, 'HomeVideoGameConsoles')
-        for i in project.handhelds:
-            data_frame = data_frame.replace(i, 'HandheldGameConsoles')
-        for i in project.windows:
-            data_frame = data_frame.replace(i, 'MicrosoftWindows')
+        _ = [data_frame.replace(i, 'Home Video Game Consoles', inplace=True) for i in project.consoles]
+        _ = [data_frame.replace(i, 'Handheld Game Consoles',   inplace=True) for i in project.handhelds]
+        _ = [data_frame.replace(i, 'Microsoft Windows',        inplace=True) for i in project.windows]
         return data_frame
+
+    def fill_missing_year(data_list):
+        """ Fill missing year data by using dictionary """
+        data_list = dict(data_list)
+        for i in range(1980, 2017):
+            if (i in data_list) == False:
+                data_list[i] = 0
+        return [[i, data_list[i]] for i in sorted(data_list)]
 
     #Below here are more advanced functions
 
@@ -38,9 +43,9 @@ class project:
 
     def platform_convert(platform):
         """ Returns a platform type of a single platform"""
-        return ('HomeVideoGameConsoles' if platform in project.consoles
-           else 'HandheldGameConsoles'  if platform in project.handhelds
-           else 'MicrosoftWindows'      if platform in project.windows
+        return ('Home Video Game Consoles' if platform in project.consoles
+           else 'Handheld Game Consoles'   if platform in project.handhelds
+           else 'Microsoft Windows'        if platform in project.windows
            else None)
 
     def platform_convert_list(data_list, merge=True):
@@ -49,6 +54,6 @@ class project:
 
         data_list = [data_list[i][0:index] + [project.platform_convert(data_list[i][index])] + data_list[i][index+1::] for i in range(len(data_list))]
 
-        return [project.add_relative([i[0:index] for i in data_list if i[index] == 'HomeVideoGameConsoles']) + ['HomeVideoGameConsoles'] + project.add_relative([i[index+1::] for i in data_list if i[index] == 'HomeVideoGameConsoles']),
-                project.add_relative([i[0:index] for i in data_list if i[index] == 'HandheldGameConsoles'])  + ['HandheldGameConsoles']  + project.add_relative([i[index+1::] for i in data_list if i[index] == 'HandheldGameConsoles']),
-                project.add_relative([i[0:index] for i in data_list if i[index] == 'MicrosoftWindows'])      + ['MicrosoftWindows']      + project.add_relative([i[index+1::] for i in data_list if i[index] == 'MicrosoftWindows'])] if merge else data_list
+        return [project.add_relative([i[0:index] for i in data_list if i[index] == 'Home Video Game Consoles']) + ['Home Video Game Consoles'] + project.add_relative([i[index+1::] for i in data_list if i[index] == 'Home Video Game Consoles']),
+                project.add_relative([i[0:index] for i in data_list if i[index] == 'Handheld Game Consoles'])   + ['Handheld Game Consoles']   + project.add_relative([i[index+1::] for i in data_list if i[index] == 'Handheld Game Consoles']),
+                project.add_relative([i[0:index] for i in data_list if i[index] == 'Microsoft Windows'])        + ['Microsoft Windows']        + project.add_relative([i[index+1::] for i in data_list if i[index] == 'Microsoft Windows'])] if merge else data_list
