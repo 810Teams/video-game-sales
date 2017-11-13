@@ -9,4 +9,4 @@ Group Members by GitHub:
 - Apisiya
 - Apisit60070114
 
-Project documents: https://goo.gl/WEnczC
+Project documents: https://goo.gl/WEnczC (KMITL Only)
