@@ -14,7 +14,7 @@ class project:
     handhelds = ['3DS', 'DS', 'GB', 'GBA', 'GG', 'PSP',
                  'PSV', 'WS']
     windows   = ['PC']
-    url       = 'https://goo.gl/PMpp2L'
+    url       = 'https://goo.gl/WEnczC'
 
     def help():
         """ Get help """
@@ -33,7 +33,7 @@ class project:
         for i in range(1980, 2017):
             if (i in data_list) == False:
                 data_list[i] = 0
-        return [[i, data_list[i]] for i in sorted(data_list)]
+        return [j for j in [[i, data_list[i]] for i in sorted(data_list)] if j[0] < 2017]
 
     #Below here are more advanced functions
 
