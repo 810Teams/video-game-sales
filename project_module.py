@@ -20,13 +20,6 @@ class project:
         """ Get help """
         print("Visit {} for all PSIT project documents.".format(project.url))
 
-    def platform_convert_df(data_frame):
-        """ Returns a platform-converted data frame """
-        _ = [data_frame.replace(i, 'Home Video Game Consoles', inplace=True) for i in project.consoles]
-        _ = [data_frame.replace(i, 'Handheld Game Consoles',   inplace=True) for i in project.handhelds]
-        _ = [data_frame.replace(i, 'Microsoft Windows',        inplace=True) for i in project.windows]
-        return data_frame
-
     def fill_missing_year(data_list):
         """ Fill missing year data by using dictionary """
         data_list = dict(data_list)
@@ -34,8 +27,6 @@ class project:
             if (i in data_list) == False:
                 data_list[i] = 0
         return [j for j in [[i, data_list[i]] for i in sorted(data_list)] if j[0] < 2017]
-
-    #Below here are more advanced functions
 
     def add_relative(values):
         """ Returns an index-relative value-summed of the input list. """
@@ -47,6 +38,13 @@ class project:
            else 'Handheld Game Consoles'   if platform in project.handhelds
            else 'Microsoft Windows'        if platform in project.windows
            else None)
+
+    def platform_convert_df(data_frame):
+        """ Returns a platform-converted data frame """
+        _ = [data_frame.replace(i, 'Home Video Game Consoles', inplace=True) for i in project.consoles]
+        _ = [data_frame.replace(i, 'Handheld Game Consoles',   inplace=True) for i in project.handhelds]
+        _ = [data_frame.replace(i, 'Microsoft Windows',        inplace=True) for i in project.windows]
+        return data_frame
 
     def platform_convert_list(data_list, merge=True):
         """ Convert all platforms to platform type of a list and merge"""
