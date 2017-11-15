@@ -40,6 +40,6 @@ def create_chart(na_sa, eu_sa, jp_sa, ot_sa, gb_sa):
     chart.add("Japan Sales", [i[1] for i in jp_sa])
     chart.add("Other Sales", [i[1] for i in ot_sa])
     chart.add("Global Sales", [i[1] for i in gb_sa])
-    chart.render_to_file('D:/Work/KMITL/T1_Y1_2560/PSIT/Project/1st_chart.svg')
+    chart.render_to_file('D:/Work/KMITL/T1_Y1_2560/PSIT/Project/1st_chart.svg') #9.Render ไฟล์เป็น SVG
 
 main()
