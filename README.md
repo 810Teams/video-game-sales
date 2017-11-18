@@ -8,5 +8,7 @@ Group Members by GitHub:
 - yakung
 - Apisiya
 - Apisit60070114
+  
+Project Site: https://810teams.github.io/Video-Game-Sales/ (Under Development)
 
-Project documents: https://goo.gl/WEnczC (KMITL Only)
+Project Documents: https://goo.gl/WEnczC (KMITL Only)
