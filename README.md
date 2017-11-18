@@ -9,6 +9,6 @@ Group Members by GitHub:
 - Apisiya
 - Apisit60070114
   
-Project Site: 810teams.github.io/Video-Game-Sales (In development)
+Project Site: https://810teams.github.io/Video-Game-Sales/ (Under Development)
 
 Project Documents: https://goo.gl/WEnczC (KMITL Only)
