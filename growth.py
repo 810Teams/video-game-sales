@@ -48,7 +48,7 @@ def pf_count_by_all(platform):
 
 def create_chart(hvgc, hhgc, msw):
     """This Function for create chart"""
-    chart = pygal.StackedLine(fill=True, width=1200, shows_dot=False, interpolate='cubic', title=u'Each Platform type of games stacked in each year', x_title='Years(From 1980 - 2016)', x_labels_major_every=6, show_minor_x_labels=False, legend_at_bottom=True, legend_at_bottom_columns=3, legend_box_size=20, style=RedBlueStyle)
+    chart = pygal.StackedLine(fill=True, width=1200, shows_dot=False, interpolate='cubic', title=u'Each Platform type of games stacked in each year', x_title='Years(From 1980 - 2016)', y_title='Game Amount', x_labels_major_every=6, show_minor_x_labels=False, legend_at_bottom=True, legend_at_bottom_columns=3, legend_box_size=20, style=RedBlueStyle)
     chart.x_labels = [i for i in range(1980, 2017)]
     chart.add("Home Video Game Consoles", hvgc)
     chart.add("Handheld Game Consoles", hhgc)
