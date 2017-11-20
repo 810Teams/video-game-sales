@@ -13,7 +13,7 @@ ____________________
 
 <b>Group Members:</b>
 <ul>
-<li>Teerapat K. (Saint) <i color="#686868">[810Teams]</i></li>
+<li>Teerapat K. (Saint) <p color="#686868"><i>[810Teams]</i></p></li>
 <li>Supakit T. (Pok) <i>[POKINBKK]</i></li>
 <li>Kawisara B. (Cartoon) <i>[zelotype]</i></li>
 <li>Kazuya K. (Ya) <i>[yakung]</i></li>
