@@ -5,6 +5,8 @@ version: 2.1
 by Teerapat K.
 """
 
+import numpy, pandas
+
 class project:
     """ 'project' class """
     consoles  = ['2600', '3DO', 'DC', 'GC', 'GEN', 'N64',
@@ -20,17 +22,17 @@ class project:
         """ Get help """
         print("Visit {} for all PSIT project documents.".format(project.url))
 
-    def fill_missing_year(data_list):
+    def fill_missing_year(data_list, replace=0):
         """ Fill missing year data by using dictionary """
         data_list = dict(data_list)
         for i in range(1980, 2017):
             if (i in data_list) == False:
-                data_list[i] = 0
+                data_list[i] = replace
         return [j for j in [[i, data_list[i]] for i in sorted(data_list)] if j[0] < 2017]
 
     def add_relative(values):
         """ Returns an index-relative value-summed of the input list. """
-        return [sum([j[i] for j in values]) for i in range(len(values[0]))]
+        return list(sum([numpy.array(i) for i in values]))
 
     def platform_convert(platform):
         """ Returns a platform type of a single platform"""
