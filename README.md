@@ -7,7 +7,7 @@ ___
 
 Branch: master
 
-Branch Instructions: Do not commit to this branch, unless it's a website update.
+Branch Instructions: <b>DO NOT</b> commit to this branch, unless it's a website update.
 
 ___
 
