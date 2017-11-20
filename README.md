@@ -13,12 +13,12 @@ ____________________
 
 <b>Group Members:</b>
 <ul>
-<li>Teerapat K. (Saint) <p color="#686868"><i>[810Teams]</i></p></li>
-<li>Supakit T. (Pok) <i>[POKINBKK]</i></li>
-<li>Kawisara B. (Cartoon) <i>[zelotype]</i></li>
-<li>Kazuya K. (Ya) <i>[yakung]</i></li>
-<li>Apisiya N. (Platty) <i>[Apisiya]</i></li>
-<li>Apisit W. (Fuse) <i>[Apisit60070114]</i></li>
+<li>Teerapat K. <li>(Saint)</li> - 810Teams</li>
+<li>Supakit T. <li>(Pok)</li> - POKINBKK</li>
+<li>Kawisara B. <li>(Cartoon)</li> - zelotype</li>
+<li>Kazuya K. <li>(Ya)</li> yakung</li>
+<li>Apisiya N. <li>(Platty)</li> - Apisiya</li>
+<li>Apisit W. <li>(Fuse)</li> - Apisit60070114</li>
 </ul>
 
 ____________________
