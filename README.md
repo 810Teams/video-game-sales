@@ -3,22 +3,24 @@ This project is a part of the subject Problem Solving in Information Technology,
 
 This project is mainly about doing data analysis. We've chosen the title "Video Game Sales" for this project.
 
-___
+____________________
 
 Branch: master
 
-Branch Instructions: <b>DO NOT</b> commit to this branch, unless it's a website update.
+<b>Branch Instructions</b>: DO NOT commit to this branch, unless it's a website update.
 
-___
+____________________
 
-Group Members:
-- Teerapat K. (810Teams)
-- Supakit T. (POKINBKK)
-- Kawisara B. (zelotype)
-- Kazuya K. (yakung)
-- Apisiya N. (Apisiya)
-- Apisit W. (Apisit60070114)
+<b>Group Members:</b>
+<ul>
+<li>Teerapat K. (810Teams)</li>
+<li>Supakit T. (POKINBKK)</li>
+<li>Kawisara B. (zelotype)</li>
+<li>Kazuya K. (yakung)</li>
+<li>Apisiya N. (Apisiya)</li>
+<li>Apisit W. (Apisit60070114)</li>
+</ul>
 
-___
+____________________
 
-Project Site: https://810teams.github.io/Video-Game-Sales/ (Under Development)
+<b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/ <i>(Under Development)</i>
