@@ -16,7 +16,7 @@ ____________________
 <li>Teerapat K. <i>(Saint)</i> - 810Teams</li>
 <li>Supakit T. <i>(Pok)</i> - POKINBKK</li>
 <li>Kawisara B. <i>(Cartoon)</i> - zelotype</li>
-<li>Kazuya K. <i>(Ya)</i> yakung</li>
+<li>Kazuya K. <i>(Ya)</i> - yakung</li>
 <li>Apisiya N. <i>(Platty)</i> - Apisiya</li>
 <li>Apisit W. <i>(Fuse)</i> - Apisit60070114</li>
 </ul>
