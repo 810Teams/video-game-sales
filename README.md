@@ -1,7 +1,7 @@
 # Video-Game-Sales
 This project is a part of the subject Problem Solving in Information Technology, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang (KMITL).
 
-This project is mainly about doing data analysis. We've chosen the title "Video Game Sales" for this project.
+This project is mainly about doing data analysis. We've chosen the title <i>Video Game Sales<i> for this project.
 
 ____________________
 
