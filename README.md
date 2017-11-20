@@ -5,7 +5,7 @@ This project is mainly about doing data analysis. We've chosen the title "Video 
 
 ____________________
 
-Branch: master
+<b>Branch:</b> master
 
 <b>Branch Instructions</b>: DO NOT commit to this branch, unless it's a website update.
 
@@ -13,12 +13,12 @@ ____________________
 
 <b>Group Members:</b>
 <ul>
-<li>Teerapat K. (810Teams)</li>
-<li>Supakit T. (POKINBKK)</li>
-<li>Kawisara B. (zelotype)</li>
-<li>Kazuya K. (yakung)</li>
-<li>Apisiya N. (Apisiya)</li>
-<li>Apisit W. (Apisit60070114)</li>
+<li>Teerapat K. <i>[810Teams]</i></li>
+<li>Supakit T. <i>[POKINBKK]</i></li>
+<li>Kawisara B. <i>[zelotype]</i></li>
+<li>Kazuya K. <i>[yakung]</i></li>
+<li>Apisiya N. <i>[Apisiya]</i></li>
+<li>Apisit W. <i>[Apisit60070114]</i></li>
 </ul>
 
 ____________________
