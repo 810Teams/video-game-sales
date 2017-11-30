@@ -91,6 +91,10 @@ body {
     border: 0;
     background-color: #fed136;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  #mainNav .navbar-toggler:hover {
+    /* Custom css, not from the original template */
+    background-color: #fec503;
+  }
   #mainNav .navbar-brand {
     color: #fed136;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }

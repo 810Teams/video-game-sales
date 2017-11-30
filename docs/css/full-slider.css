@@ -29,12 +29,6 @@
   opacity: .9;
 }
 
-.carousel-control-prev:focus, .carousel-control-prev:hover,
-.carousel-control-next:focus,
-.carousel-control-next:hover {
-  opacity: .9;
-}
-
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 1.65em;
     width: 1.65em;
