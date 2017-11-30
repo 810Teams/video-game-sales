@@ -4,14 +4,11 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>Video Game Sales Analysis</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -21,7 +18,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
 
   </head>
 
@@ -185,13 +183,39 @@
           </div>
         </div>
         <div class="container">
-          <center>
-            <figure>
-              <embed width=49% type="image/svg+xml" src="charts/overview_genre.svg" />
-              <embed width=49% type="image/svg+xml" src="charts/overview_platform.svg" />
-            </figure>
-          </center>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active">
+              <figure>
+                <embed type="image/svg+xml" src="charts/overview_genre.svg" />
+              </figure>
+            </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item">
+              <figure>
+                <embed type="image/svg+xml" src="charts/overview_platform.svg" />
+              </figure>
+            </div>
+          </div>
+          <div class="carousel-control-prev" >
+            <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="sr-only">Previous</span>
+            </a>
+          </div>
+          <div class="carousel-control-next">
+            <a href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
+      </div>
         <div class="modal-body">
           <p style="text-indent: 2.5em;">According to the first chart, you'll see that the most video games genre available is action. The second is sports genre. One of the reasons that makes action games the most interested is that action games are usually challenging, fun and exciting for everybody.</p>
           <p style="text-indent: 2.5em;">Talking about the second chart, the most video games platform type available is home video game consoles. This chart is kinda clear, because in 80s and 90s, PCs are mainly designed for working, not gaming. That's why there're so many console games.</p>
@@ -535,6 +559,7 @@
         </div>
       </div>
     </footer>
+
 
     <!-- Gallery Modals -->
 

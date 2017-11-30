@@ -1,0 +1,48 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+  height: auto;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-control-prev {
+  width: 10%;
+  top: 45%;
+  bottom: 45%;
+  left: 1%;
+  opacity: .9;
+}
+
+.carousel-control-next {
+  width: 10%;
+  top: 45%;
+  bottom: 45%;
+  right: 1%;
+  opacity: .9;
+}
+
+.carousel-control-prev:focus, .carousel-control-prev:hover,
+.carousel-control-next:focus,
+.carousel-control-next:hover {
+  opacity: .9;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 1.65em;
+    width: 1.65em;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 75%, 75%;
+    border-radius: 100%;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: #fec136;
+}
