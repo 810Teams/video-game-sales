@@ -313,12 +313,47 @@
             <h3 class="section-subheading text-muted">In the modern days, video games are known across the world. Let's see how popular of video games to each different world region.</h3>
           </div>
         </div>
+        <!-- Chart Carousel -->
         <div class="container">
-          <center>
-            <figure>
-              <embed type="image/svg+xml" src="charts/sales_region.svg" />
-            </figure>
-          </center>
+          <div id="carousel_sales" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel_sales" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel_sales" data-slide-to="1"></li>
+              <li data-target="#carousel_sales" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Chart #1 -->
+              <div class="carousel-item active">
+                <figure>
+                  <embed type="image/svg+xml" src="charts/sales_region.svg" />
+                </figure>
+              </div>
+              <!-- Chart #2 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="charts/sample_2.svg" />
+                </figure>
+              </div>
+              <!-- Chart #2 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="charts/sample_4.svg" />
+                </figure>
+              </div>
+            </div>
+            <div class="carousel-control-prev" >
+              <a href="#carousel_sales" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="carousel-control-next">
+              <a href="#carousel_sales" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
         </div>
         <div class="modal-body">
           <p style="text-indent: 2.5em;">According to the chart, you'll obviously notice that there're so many curves, up and down. This somehow related to the releases chart, but still, let's take a deeper look on some events.</p>
