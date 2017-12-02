@@ -11,6 +11,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: auto;
 }
 
 .carousel-control-prev {
@@ -30,10 +31,10 @@
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 1.65em;
-    width: 1.65em;
+    height: 1.75em;
+    width: 1.75em;
     background-color: rgba(0, 0, 0, 0.3);
-    background-size: 75%, 75%;
+    background-size: 70%, 70%;
     border-radius: 100%;
 }
 
