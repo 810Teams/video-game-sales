@@ -20,10 +20,9 @@ def create_chart(data_frame):
     for i in data:
         chart.add(i[0], i[1])
 
-    chart.title = 'Video Games Amount by Platform Type'
     chart.legend_at_bottom = True
     chart.legend_at_bottom_columns = 3
-    chart.legend_box_size = 12
+    chart.legend_box_size = 16
     chart.render_to_file('overview_platform.svg')
 
 main()
