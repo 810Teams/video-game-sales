@@ -62,7 +62,7 @@ def create_chart(hvgc, hhgc, msw):
 
     chart.legend_at_bottom = True
     chart.legend_at_bottom_columns = 3
-    chart.legend_box_size = 20
+    chart.legend_box_size = 16
 
     chart.add("Home Video Game Consoles", hvgc)
     chart.add("Handheld Game Consoles", hhgc)
