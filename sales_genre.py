@@ -1,12 +1,12 @@
 """
 PSIT Data Analysis Project
-Chart: Sales by Region
+Chart: Sales by Genre
 """
 
 import pandas, numpy, pygal
 from project_module import project
 
-data_frame = pandas.read_csv('D:\Work\KMITL\T1_Y1_2560\PSIT\Project\Pgsales.csv')
+data_frame = pandas.read_csv('videoGameSales.csv')
 
 def main():
     """ Main Function """
@@ -64,6 +64,6 @@ def create_chart(ac, ad, fi, mi, pl, pu, ra, ro, sh, si, sp, st):
     chart.add("Sports", [i[1] for i in sp])
     chart.add("Strategy", [i[1] for i in st])
 
-    chart.render_to_file('D:/Work/KMITL/T1_Y1_2560/PSIT/Project/sales_genre.svg')
+    chart.render_to_file('sales_genre.svg')
 
 main()
