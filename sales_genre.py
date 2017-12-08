@@ -12,7 +12,7 @@ def main():
     """ Main Function """
     action = project.fill_missing_year(summed_genre_sales('Action'))
     adventure = project.fill_missing_year(summed_genre_sales('Adventure'))
-    figthing = project.fill_missing_year(summed_genre_sales('Figthing'))
+    figthing = project.fill_missing_year(summed_genre_sales('Fighting'))
     misc = project.fill_missing_year(summed_genre_sales('Misc'))
     platform = project.fill_missing_year(summed_genre_sales('Platform'))
     puzzle = project.fill_missing_year(summed_genre_sales('Puzzle'))
@@ -53,7 +53,7 @@ def create_chart(ac, ad, fi, mi, pl, pu, ra, ro, sh, si, sp, st):
 
     chart.add("Action", [i[1] for i in ac])
     chart.add("Adventure", [i[1] for i in ad])
-    chart.add("Figthing", [i[1] for i in fi])
+    chart.add("Fighting", [i[1] for i in fi])
     chart.add("Misc", [i[1] for i in mi])
     chart.add("Platform", [i[1] for i in pl])
     chart.add("Puzzle", [i[1] for i in pu])
