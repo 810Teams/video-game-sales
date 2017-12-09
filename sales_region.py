@@ -35,6 +35,7 @@ def create_chart(na_sa, eu_sa, jp_sa, ot_sa, gb_sa):
     chart.x_labels_major_count = 8
     chart.show_minor_x_labels = False
     chart.truncate_label = 5
+    chart.legend_at_bottom_columns = 4
     chart.legend_box_size = 16
 
     chart.add("North America Sales", [i[1] for i in na_sa])
