@@ -5,12 +5,6 @@ This project is mainly about doing data analysis. We've chosen the title <i>Vide
 
 ____________________
 
-<b>Branch:</b> master
-
-<b>Branch Instructions</b>: DO NOT commit to this branch, unless it's the website update.
-
-____________________
-
 <b>Group Members:</b>
 <ul>
 <li>Teerapat K. <i>(Saint)</i> - 810Teams</li>
