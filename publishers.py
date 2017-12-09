@@ -24,7 +24,7 @@ def create_chart(data_frame):
     chart.legend_box_size = 16
     chart.render_to_file('publishers.svg')
 
-    #getdata(ranking, data)
+    #getdata(ranking, data) #Turn off comment to get more data
 
 def getdata(ranking, data):
     """ Get data """
