@@ -22,6 +22,7 @@
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/full-slider.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
 
   </head>
 
@@ -30,36 +31,38 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Video Game Sales</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+        <a class="navbar-brand js-scroll-trigger hvr-pulse-grow" href="#page-top">Video Game Sales</a>
+        <button class="navbar-toggler navbar-toggler-right hvr-grow" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
+            <!-- .hvr-grow bug fixing line --> <a class="hvr-grow"></a>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#portfolio">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#overview">Overview</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#releases">Releases</a>
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#releases">Releases</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#growth">Growth</a>
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#growth">Growth</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#sales">Sales</a>
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#sales">Sales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#publishers">Publishers</a>
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#publishers">Publishers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#tools">Tools</a>
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#tools">Tools</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#team">Team</a>
             </li>
           </ul>
         </div>
@@ -72,7 +75,7 @@
         <div class="intro-text">
           <div class="intro-lead-in">Welcome to our Data Analysis Project Site!</div>
           <div class="intro-heading text-uppercase">Video Game Sales Analysis</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Let's go!</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger hvr-pulse" href="#portfolio">Let's go!</a>
         </div>
       </div>
     </header>
@@ -87,7 +90,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-6 portfolio-item hvr-grow">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -101,7 +104,7 @@
               <p class="text-muted">One of the oldest gaming platform.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-6 portfolio-item hvr-grow">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -115,7 +118,7 @@
               <p class="text-muted">One of the greatest hits. Ever.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-6 portfolio-item hvr-grow">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -129,7 +132,7 @@
               <p class="text-muted">One of the best childhood memories.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-6 portfolio-item hvr-grow">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -143,7 +146,7 @@
               <p class="text-muted">Started in Kyoto since 1889.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-6 portfolio-item hvr-grow">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -157,7 +160,7 @@
               <p class="text-muted">The best-selling video game series.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-6 portfolio-item hvr-grow">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -205,15 +208,15 @@
                 </figure>
               </div>
             </div>
-            <div class="carousel-control-prev" >
+            <div class="carousel-control-prev">
               <a href="#carousel_overview" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon hvr-grow" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
             </div>
             <div class="carousel-control-next">
               <a href="#carousel_overview" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon hvr-grow" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
@@ -258,13 +261,13 @@
             </div>
             <div class="carousel-control-prev" >
               <a href="#carousel_releases" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon hvr-grow" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
             </div>
             <div class="carousel-control-next">
               <a href="#carousel_releases" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon hvr-grow" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
@@ -344,13 +347,13 @@
             </div>
             <div class="carousel-control-prev" >
               <a href="#carousel_sales" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon hvr-grow" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
             </div>
             <div class="carousel-control-next">
               <a href="#carousel_sales" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon hvr-grow" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
@@ -414,7 +417,7 @@
     </section>
 
     <!-- Tools -->
-    <section id="tools" class="bg-light animatedParent">
+    <section id="tools" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -424,7 +427,7 @@
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x hvr-bob">
               <a href="https://github.com" target="_blank">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -434,7 +437,7 @@
             <p class="text-muted">For doing project as a team.</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x hvr-bob">
               <a href="https://pages.github.com" target="_blank">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i>
@@ -444,7 +447,7 @@
             <p class="text-muted">For creating project site. This site.</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x hvr-bob">
               <a href="https://www.python.org" target="_blank">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
@@ -454,7 +457,7 @@
             <p class="text-muted">The programming language used in this project.</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x hvr-bob">
               <a href="http://www.numpy.org" target="_blank">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-superscript fa-stack-1x fa-inverse"></i>
@@ -464,7 +467,7 @@
             <p class="text-muted">One of the Python external libraries for managing array data.</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x hvr-bob">
               <a href="https://pandas.pydata.org" target="_blank">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-table fa-stack-1x fa-inverse"></i>
@@ -474,7 +477,7 @@
             <p class="text-muted">One of the Python external libraries for doing data analysis.</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x hvr-bob">
               <a href="http://pygal.org/en/stable" target="_blank">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
@@ -499,7 +502,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/00.jpg" alt="">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/team/00.jpg" alt="">
               <h4>Teerapat Kraisrisirikul</h4>
               <p class="text-muted">Saint</p>
               <ul class="list-inline social-buttons">
@@ -518,7 +521,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/01.jpg" alt="">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/team/01.jpg" alt="">
               <h4>Supakit Theanthunyakit</h4>
               <p class="text-muted">Pok</p>
               <ul class="list-inline social-buttons">
@@ -537,7 +540,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/02.jpg" alt="">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/team/02.jpg" alt="">
               <h4>Kawisara Bunyen</h4>
               <p class="text-muted">Cartoon</p>
               <ul class="list-inline social-buttons">
@@ -556,7 +559,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/03.jpg" alt="">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/team/03.jpg" alt="">
               <h4>Kazuya Komatsu</h4>
               <p class="text-muted">Ya</p>
               <ul class="list-inline social-buttons">
@@ -575,7 +578,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/04.jpg" alt="">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/team/04.jpg" alt="">
               <h4>Apisiya Ngernyam</h4>
               <p class="text-muted">Platty</p>
               <ul class="list-inline social-buttons">
@@ -589,7 +592,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/05.jpg" alt="">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/team/05.jpg" alt="">
               <h4>Apisit Wetmaha</h4>
               <p class="text-muted">Fuse</p>
               <ul class="list-inline social-buttons">
