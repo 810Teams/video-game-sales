@@ -1,7 +1,7 @@
 """
 'project' class file
 designed for PSIT Project: Video Game Sales
-version: 2.1
+version: 2.1.1
 by Teerapat K.
 """
 
@@ -16,11 +16,11 @@ class project:
     handhelds = ['3DS', 'DS', 'GB', 'GBA', 'GG', 'PSP',
                  'PSV', 'WS']
     windows   = ['PC']
-    url       = 'https://goo.gl/WEnczC'
+    url       = 'https://github.com/810Teams/Video-Game-Sales'
 
     def help():
         """ Get help """
-        print("Visit {} for all PSIT project documents.".format(project.url))
+        print("Visit {} for GitHub Repository.".format(project.url))
 
     def fill_missing_year(data_list, replace=0):
         """ Fill missing year data by using dictionary """
