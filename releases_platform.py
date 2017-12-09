@@ -1,6 +1,6 @@
 """
 PSIT Data Analysis Project
-Chart: Releases by Platform Types
+Chart: Releases by Platform Type
 """
 
 import numpy, pygal, pandas
