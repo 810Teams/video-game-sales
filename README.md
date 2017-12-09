@@ -1,13 +1,7 @@
 # Video-Game-Sales
 This project is a part of the subject Problem Solving in Information Technology, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang (KMITL).
 
-This project is mainly about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project.
-
-____________________
-
-<b>Branch:</b> Cartoon
-
-<b>Branch Instructions</b>: A branch for <i>Cartoon</i> to upload and store received works.
+This project is mainly about doing data analysis. We've chosen the title <i>Video Game Sales<i> for this project.
 
 ____________________
 
