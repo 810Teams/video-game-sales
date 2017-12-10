@@ -25,6 +25,8 @@ def main():
     chart.x_labels_major_count = 8
     chart.show_minor_x_labels = False
     chart.truncate_label = 5
+    chart.y_labels = [i for i in range(0, 1401, 200)]
+    chart.y_labels_major_every = 5
     chart.legend_at_bottom = True
     chart.legend_at_bottom_columns = 3
     chart.x_title = "Year"
