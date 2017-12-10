@@ -29,10 +29,11 @@ def main():
     chart.y_labels_major_every = 5
     chart.legend_at_bottom = True
     chart.legend_at_bottom_columns = 3
+    chart.legend_box_size = 16
     chart.x_title = "Year"
     chart.y_title = "Video Games Amount"
 
-    for i in data_platform:
+    for i in ['Home Video Game Consoles', 'Handheld Game Consoles', 'Microsoft Windows']:
         temp = pj.fill_missing_year([[j[1], j[2]] for j in data_Year if j[0] == i])
         chart.add(i, [j[1] for j in temp])
 
