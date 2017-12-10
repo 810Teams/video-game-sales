@@ -34,6 +34,7 @@ def create_chart(na_sa, eu_sa, jp_sa, ot_sa, gb_sa):
     chart.x_labels = [str(int(i[0])) for i in na_sa]
     chart.x_labels_major_count = 8
     chart.show_minor_x_labels = False
+    chart.y_labels = [i for i in range(0, 601, 100)]
     chart.truncate_label = 5
     chart.legend_box_size = 16
 
