@@ -18,7 +18,7 @@ def create_chart(data_frame):
     chart = pygal.Pie()
 
     for i in data:
-        chart.add(i[0], i[1])
+        chart.add(i[0], [{'value': i[1], 'label': '{:.2f}%'.format(100*i[1]/sum([j[1] for j in data]))}])
 
     chart.legend_at_bottom = True
     chart.legend_box_size = 16
