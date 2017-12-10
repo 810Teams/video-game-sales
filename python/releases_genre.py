@@ -20,6 +20,7 @@ def main():
     chart.y_labels_major_every = 5
     chart.truncate_label = 5
     chart.legend_at_bottom = True
+    chart.legend_box_size = 16
     chart.x_title = "Year"
     chart.y_title = "Video Games Amount"
 
