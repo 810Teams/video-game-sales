@@ -30,11 +30,11 @@ h6 {
 section {
   padding: 100px 0; }
   section h2.section-heading {
-    font-size: 40px;
+    font-size: 42px; /* +2 */
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
-    font-size: 16px;
+    font-size: 17px; /* +1 */
     font-weight: 400;
     font-style: italic;
     margin-bottom: 75px;
@@ -180,7 +180,8 @@ header.masthead {
 
 .service-heading {
   margin: 15px 0;
-  text-transform: none; }
+  text-transform: none;
+  font-size: 24px; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -476,3 +477,15 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #fed136; }
+
+.modal-body {
+  font-size: 17px; /* +1 */
+}
+
+.text-muted {
+  font-size: 17px; /* +1 */
+}
+
+.nav-item {
+  font-size: 17px; /* +1 */
+}
