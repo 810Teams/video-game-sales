@@ -3,7 +3,26 @@ This project is a part of the subject Problem Solving in Information Technology,
 
 This project is mainly about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project.
 
-<b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/ <i>(Under Development)</i>
+<b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/
+
+___________________
+
+<b>Statistics:</b>
+<ul>
+  <li>Started: <i>10th November 2017</i></li>
+  <li>Completed: <i>13th December 2017</i></li>
+  <li>Total Days: <i>34 Days</i></li>
+  <li>
+    Languages:
+    <ul><i>
+      <li>Python (Main language)</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Markdown</li>
+    </i></ul>
+  </li>
+</ul>
 
 ____________________
 
@@ -25,9 +44,10 @@ ____________________
       <li>Project site can be viewed <a href="https://810teams.github.io/Video-Game-Sales/" target="_blank">here</a>.</li>
       <li>For more accurate analysis, <b>Thai</b> language is recommended.</li>
       <li>For neater webpage, <b>English</b> language is recommended.</li>
-      <li>NOTE: Both versions has the same content.</li>
+      <li>NOTE: <i>Both versions has the same content.</i></li>
     </ul>
   </li>
+  <br>
   <li>
     <b>For Visitors:</b>
     <ul>
