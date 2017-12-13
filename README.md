@@ -71,11 +71,11 @@ ____________________
 
 <b>Credits:</b>
   <ul>
-    <li><a target="_blank" href="https://www.kaggle.com/gregorut/videogamesales">[ENTER]</a> Video Game Sales dataset from Kaggle</li>
-    <li><a target="_blank" href="http://www.vgchartz.com">[ENTER]</a>Original database from VGChartz</li>
-    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/agency/">[ENTER]</a> Agency Template from Start Bootstrap</li>
-    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/full-slider/">[ENTER]</a> Full Slider Template from Start Bootstrap</li>
-    <li><a target="_blank" href="http://ianlunn.github.io/Hover/">[ENTER]</a> Hover Effects <i>(hover.css)</i></li>
+    <li><a target="_blank" href="https://www.kaggle.com/gregorut/videogamesales">[View]</a> Video Game Sales dataset from Kaggle</li>
+    <li><a target="_blank" href="http://www.vgchartz.com">[View]</a> Original database from VGChartz</li>
+    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/agency/">[View]</a> Agency Template from Start Bootstrap</li>
+    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/full-slider/">[View]</a> Full Slider Template from Start Bootstrap</li>
+    <li><a target="_blank" href="http://ianlunn.github.io/Hover/">[View]</a> Hover Effects by Ian Lunn <i>(hover.css)</i></li>
   </ul>
 
 ____________________
