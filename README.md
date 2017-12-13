@@ -1,7 +1,7 @@
 # Video-Game-Sales
 This project is a part of the subject Problem Solving in Information Technology <i>(PSIT)</i>, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang <i>(KMITL)</i>.
 
-This project is mainly about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project.
+This project is about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project. Our main target is to determine factors that affects the video game sales and reasons why.
 
 <b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/ <i>(Last Updated: 13th December 2017)</i>
 
@@ -25,7 +25,7 @@ ____________________
       <li>Project site can be viewed <a href="https://810teams.github.io/Video-Game-Sales/" target="_blank">here</a>.</li>
       <li>For more accurate analysis, <b>Thai</b> language is recommended.</li>
       <li>For neater webpage, <b>English</b> language is recommended.</li>
-      <li>NOTE: <i>Both versions has the same content.</i></li>
+      <li>NOTE: <i>Both versions have the same content.</i></li>
     </ul>
   </li>
   <br>
@@ -60,12 +60,12 @@ ____________________
 
 <b>Group Members:</b>
   <ul>
-    <li>Teerapat K. <i>(Saint)</i> - 810Teams</li>
-    <li>Supakit T. <i>(Pok)</i> - POKINBKK</li>
-    <li>Kawisara B. <i>(Cartoon)</i> - zelotype</li>
-    <li>Kazuya K. <i>(Ya)</i> - yakung</li>
-    <li>Apisiya N. <i>(Platty)</i> - Apisiya</li>
-    <li>Apisit W. <i>(Fuse)</i> - Apisit60070114</li>
+    <li>Teerapat K. <i>(Saint)</i> - <a href="https://github.com/810Teams" target="_blank">810Teams</a></li>
+    <li>Supakit T. <i>(Pok)</i> - <a href="https://github.com/POKINBKK" target="_blank">POKINBKK</a></li>
+    <li>Kawisara B. <i>(Cartoon)</i> - <a href="https://github.com/zelotype" target="_blank">zelotype</a></li>
+    <li>Kazuya K. <i>(Ya)</i> - <a href="https://github.com/yakung" target="_blank">yakung</a></li>
+    <li>Apisiya N. <i>(Platty)</i> - <a href="https://github.com/Apisiya" target="_blank">Apisiya</a></li>
+    <li>Apisit W. <i>(Fuse)</i> - <a href="https://github.com/Apisit60070114" target="_blank">Apisit60070114</a></li>
   </ul>
 
 ____________________
