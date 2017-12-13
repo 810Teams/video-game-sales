@@ -1,28 +1,9 @@
 # Video-Game-Sales
-This project is a part of the subject Problem Solving in Information Technology, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang (KMITL).
+This project is a part of the subject Problem Solving in Information Technology <i>(PSIT)</i>, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang <i>(KMITL)</i>.
 
 This project is mainly about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project.
 
-<b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/
-
-___________________
-
-<b>Statistics:</b>
-<ul>
-  <li>Started: <i>10th November 2017</i></li>
-  <li>Completed: <i>13th December 2017</i></li>
-  <li>Total Days: <i>34 Days</i></li>
-  <li>
-    Languages:
-    <ul><i>
-      <li>Python (Main language)</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Markdown</li>
-    </i></ul>
-  </li>
-</ul>
+<b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/ <i>(Last Updated: 13th December 2017)</i>
 
 ____________________
 
@@ -56,6 +37,24 @@ ____________________
   </li>
 </ul>
 
+___________________
+
+<b>Statistics:</b>
+<ul>
+  <li>Started: <i>10th November 2017</i></li>
+  <li>Completed: <i>13th December 2017</i></li>
+  <li>Total Days: <i>34 Days</i></li>
+  <li>
+    Languages:
+    <ul><i>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Markdown</li>
+    </i></ul>
+  </li>
+</ul>
 ____________________
 
 <b>Group Members:</b>
@@ -70,4 +69,15 @@ ____________________
 
 ____________________
 
-Thank you, from group members.
+<b>Credits:</b>
+  <ul>
+    <li><a target="_blank" href="https://www.kaggle.com/gregorut/videogamesales">[ENTER]</a> Video Game Sales dataset from Kaggle</li>
+    <li><a target="_blank" href="http://www.vgchartz.com">[ENTER]</a>Original database from VGChartz</li>
+    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/agency/">[ENTER]</a> Agency Template from Start Bootstrap</li>
+    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/full-slider/">[ENTER]</a> Full Slider Template from Start Bootstrap</li>
+    <li><a target="_blank" href="http://ianlunn.github.io/Hover/">[ENTER]</a> Hover Effects <i>(hover.css)</i></li>
+  </ul>
+
+____________________
+
+<i>Thank you, from group members.</i>
