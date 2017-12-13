@@ -5,7 +5,8 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Kanit', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Kanit', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: justify; }
 
 p {
   line-height: 1.75; }
