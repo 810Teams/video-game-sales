@@ -1,7 +1,7 @@
 # Video-Game-Sales
 This project is a part of the subject Problem Solving in Information Technology <i>(PSIT)</i>, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang <i>(KMITL)</i>.
 
-This project is about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project. Our main target is to determine factors that affects the video game sales and reasons why.
+This project is about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project. Our main target is to determine factors that affects the video game sales.
 
 <b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/ <i>(Last Updated: 13th December 2017)</i>
 
@@ -15,7 +15,7 @@ ____________________
       <li>Please only push python scripts to your own branch.</li>
       <li>Please do not push any unwanted files to this repository.</li>
       <li>Please do not push to master, unless it's the website update.</li>
-      <li>Please do not merge any branch to master, unless until it was approved.</li>
+      <li>Please do not merge any branch to master, until it was approved.</li>
     </ul>
   </li>
   <br>
@@ -72,11 +72,11 @@ ____________________
 
 <b>Credits:</b>
   <ul>
-    <li><a target="_blank" href="https://www.kaggle.com/gregorut/videogamesales">[View]</a> Video Game Sales dataset from Kaggle</li>
-    <li><a target="_blank" href="http://www.vgchartz.com">[View]</a> Original database from VGChartz</li>
-    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/agency/">[View]</a> Agency Template from Start Bootstrap</li>
-    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/full-slider/">[View]</a> Full Slider Template from Start Bootstrap</li>
-    <li><a target="_blank" href="http://ianlunn.github.io/Hover/">[View]</a> Hover Effects by Ian Lunn <i>(hover.css)</i></li>
+    <li><a target="_blank" href="https://www.kaggle.com/gregorut/videogamesales">(View)</a> Video Game Sales dataset from Kaggle</li>
+    <li><a target="_blank" href="http://www.vgchartz.com">(View)</a> Original database from VGChartz</li>
+    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/agency/">(View)</a> Agency Template from Start Bootstrap</li>
+    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/full-slider/">(View)</a> Full Slider Template from Start Bootstrap</li>
+    <li><a target="_blank" href="http://ianlunn.github.io/Hover/">(View)</a> Hover Effects by Ian Lunn <i>(hover.css)</i></li>
   </ul>
 
 ____________________
