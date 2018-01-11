@@ -4,6 +4,7 @@ This project is a part of the subject Problem Solving in Information Technology 
 This project is about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project. Our main target is to determine factors that affects the video game sales.
 
 <b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/ <i>(Last Updated: 13th December 2017)</i>
+<b>Project Status:</b> Completed / Discontinued
 
 ____________________
 
