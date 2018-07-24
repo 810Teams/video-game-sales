@@ -9,12 +9,13 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 **Last Updated:** 13th December 2017  
 **Project Status:** Completed / Discontinued
 
-## Statistic
+## Statistics
 
 **Started:** 10th November 2017  
 **Completed:** 13th December 2017  
 **Total Days:** 34 Days  
 **Main Language:** Python
+**Other Language:** HTML, CSS, JavaScript
 
 ## Group Members
 - Teerapat K. *(Saint)* - [810Teams](https://github.com/810Teams)
