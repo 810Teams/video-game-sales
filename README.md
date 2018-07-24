@@ -19,8 +19,8 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 
 ## Group Members
 
-|<img src="https://avatars0.githubusercontent.com/u/26340809?s=400&u=7297bdffc0500060bece024fe4785493fc62e2c2&v=4)" width="100px" height="100px"/>|<img src="https://avatars3.githubusercontent.com/u/26917382?s=460&v=4" width="100px" height="100px"/>|<img src="https://avatars1.githubusercontent.com/u/32617105?s=460&v=4" width="100px" height="100px"/>|<img src="https://avatars2.githubusercontent.com/u/32835083?s=460&v=4" width="100px" height="100px"/>|<img src="https://avatars3.githubusercontent.com/u/32858339?s=460&v=4" width="100px" height="100px"/>|<img src="https://avatars2.githubusercontent.com/u/32724812?s=460&v=4" width="100px" height="100px"/>|
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|<img src="https://avatars0.githubusercontent.com/u/26340809?s=400&u=7297bdffc0500060bece024fe4785493fc62e2c2&v=4" width="100px" height="100px">|<img src="https://avatars2.githubusercontent.com/u/26917382?s=400&v=4" width="100px" height="100px">|<img src="https://avatars1.githubusercontent.com/u/32617105?s=460&v=4" width="100px" height="100px">|<img src="https://avatars2.githubusercontent.com/u/32835083?s=460&v=4" width="100px" height="100px">|<img src="https://avatars3.githubusercontent.com/u/32858339?s=460&v=4" width="100px" height="100px">|<img src="https://avatars2.githubusercontent.com/u/32724812?s=460&v=4" width="100px" height="100px">|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |[@810Teams](https://github.com/810Teams)|[@POKINBKK](https://github.com/POKINBKK)|[@zelotype](https://github.com/zelotype)|[@yakung](https://github.com/yakung)|[@Apisiya](https://github.com/Apisiya)|[@Apisit60070114](https://github.com/Apisit60070114)|
 |Teerpat Kraisrisirikul|Supakit Theanthunyakit|Kawisara Bunyen|Kazuya Komatsu|Apisiya Ngurnyam|Apisit Wetmaha|
 
