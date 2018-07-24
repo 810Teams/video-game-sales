@@ -1,74 +1,28 @@
 # Video-Game-Sales
-This project is a part of the subject Problem Solving in Information Technology <i>(PSIT)</i>, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang <i>(KMITL)</i>.
+This project is a part of the subject Problem Solving in Information Technology *(PSIT)*, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
 
-This project is about doing data analysis. We've chosen the title <i>Video Game Sales</i> for this project. Our main target is to determine factors that affects the video game sales.
+This project is about doing data analysis. We've chosen the title *Video Game Sales* for this project. Our main target is to determine factors that affects the video game sales.
 
-<b>Project Site:</b> https://810teams.github.io/Video-Game-Sales/ <i>(Last Updated: 13th December 2017)</i>
+## Information
 
-<b>Project Status:</b> Completed / Discontinued
+**Project Site:** https://810teams.github.io/Video-Game-Sales/  
+**Last Updated:** 13th December 2017  
+**Project Status:** Completed / Discontinued
 
-____________________
+## Statistic
 
-<b>Instructions:</b>
-<ul>
-  <li>
-    <b>For Team Members:</b>
-    <ul>
-      <li>Please only push python scripts to your own branch.</li>
-      <li>Please do not push any unwanted files to this repository.</li>
-      <li>Please do not push to master, unless it's the website update.</li>
-      <li>Please do not merge any branch to master, until it was approved.</li>
-    </ul>
-  </li>
-  <br>
-  <li>
-    <b>For Subject Instructors:</b>
-    <ul>
-      <li>Project site can be viewed <a href="https://810teams.github.io/Video-Game-Sales/" target="_blank">here</a>.</li>
-      <li>For more accurate analysis, <b>Thai</b> language is recommended.</li>
-      <li>For neater webpage, <b>English</b> language is recommended.</li>
-      <li>NOTE: <i>Both versions have the same content.</i></li>
-    </ul>
-  </li>
-  <br>
-  <li>
-    <b>For Visitors:</b>
-    <ul>
-      <li>Just feel free to look up!</li>
-    </ul>
-  </li>
-</ul>
+**Started:** 10th November 2017  
+**Completed:** 13th December 2017  
+**Total Days:** 34 Days  
+**Main Language:** Python
 
-___________________
-
-<b>Statistics:</b>
-<ul>
-  <li>Started: <i>10th November 2017</i></li>
-  <li>Completed: <i>13th December 2017</i></li>
-  <li>Total Days: <i>34 Days</i></li>
-  <li>
-    Languages:
-    <ul><i>
-      <li>Python</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Markdown</li>
-    </i></ul>
-  </li>
-</ul>
-
-____________________
-
-<b>Group Members:</b>
-  <ul>
-    <li>Teerapat K. <i>(Saint)</i> - <a href="https://github.com/810Teams" target="_blank">810Teams</a></li>
-    <li>Supakit T. <i>(Pok)</i> - <a href="https://github.com/POKINBKK" target="_blank">POKINBKK</a></li>
-    <li>Kawisara B. <i>(Cartoon)</i> - <a href="https://github.com/zelotype" target="_blank">zelotype</a></li>
-    <li>Kazuya K. <i>(Ya)</i> - <a href="https://github.com/yakung" target="_blank">yakung</a></li>
-    <li>Apisiya N. <i>(Platty)</i> - <a href="https://github.com/Apisiya" target="_blank">Apisiya</a></li>
-    <li>Apisit W. <i>(Fuse)</i> - <a href="https://github.com/Apisit60070114" target="_blank">Apisit60070114</a></li>
-  </ul>
+## Group Members
+- Teerapat K. *(Saint)* - [810Teams](https://github.com/810Teams)
+- Supakit T. *(Pok)* - [POKINBKK](https://github.com/POKINBKK)
+- Kawisara B. *(Cartoon)* - [zelotype](https://github.com/zelotype)
+- Kazuya K. *(Ya)* - [yakung](https://github.com/yakung)
+- Apisiya N. *(Platty)* - [Apisiya](https://github.com/Apisiya)
+- Apisit W. *(Fuse)* - [Apisit60070114](https://github.com/Apisit60070114)
 
 ____________________
 
