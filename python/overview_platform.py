@@ -8,7 +8,7 @@ from project_module import project
 
 def main():
     """ Main function """
-    data_frame = project.platform_convert_df(pandas.read_csv('videoGameSales.csv'))
+    data_frame = project.platform_convert_df(pandas.read_csv('vgsales.csv'))
     create_chart(data_frame)
 
 def create_chart(data_frame):

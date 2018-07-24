@@ -8,7 +8,7 @@ from project_module import project
 
 def main():
     """ Main Function """
-    data_frame = pandas.read_csv('videoGameSales.csv')
+    data_frame = pandas.read_csv('vgsales.csv')
     NA_Sales = project.fill_missing_year(summed_sales(data_frame, 'NA_Sales'))
     EU_Sales = project.fill_missing_year(summed_sales(data_frame, 'EU_Sales'))
     JP_Sales = project.fill_missing_year(summed_sales(data_frame, 'JP_Sales'))

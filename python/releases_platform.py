@@ -8,7 +8,7 @@ from project_module import project as pj
 
 def main():
     """create chart platform type of games count in each year """
-    data_game = pandas.read_csv('videoGameSales.csv')
+    data_game = pandas.read_csv('vgsales.csv')
     data_game = pj.platform_convert_df(data_game)
     data_Year = numpy.array(data_game.groupby(["Platform", "Year"], as_index=False).count()[["Platform","Year", "Rank"]]).tolist()
     data_platform = [i for i in (data_game.groupby(["Platform"], as_index=False).count()["Platform"]).tolist()]

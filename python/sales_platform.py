@@ -6,7 +6,7 @@ Chart: Sales by Platform Type
 import pandas, numpy, pygal
 from project_module import project
 
-data_frame = pandas.read_csv('videoGameSales.csv')
+data_frame = pandas.read_csv('vgsales.csv')
 
 def main():
     """ Main Function """

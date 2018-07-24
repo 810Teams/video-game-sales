@@ -8,7 +8,7 @@ from project_module import project
 
 def main():
     """ Main function """
-    data_game = pandas.read_csv("videoGameSales.csv")
+    data_game = pandas.read_csv("vgsales.csv")
     data_year = numpy.array(data_game.groupby(["Genre", "Year"], as_index=False).count()[["Genre", "Year", "Rank"]]).tolist()
     data_genre = [i for i in (data_game.groupby(["Genre"], as_index=False).count()["Genre"]).tolist()]
 

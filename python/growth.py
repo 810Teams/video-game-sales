@@ -7,7 +7,7 @@ import pandas, numpy, pygal
 from pygal.style import CleanStyle
 from project_module import project
 
-data_frame = pandas.read_csv('videoGameSales.csv')
+data_frame = pandas.read_csv('vgsales.csv')
 df_chage_platform = project.platform_convert_df(data_frame)
 year_pf_list = numpy.array(df_chage_platform[['Year','Platform']]).tolist()
 

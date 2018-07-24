@@ -7,7 +7,7 @@ import pandas, numpy, pygal
 
 def main():
     """ Main function """
-    create_chart(pandas.read_csv('videoGameSales.csv'))
+    create_chart(pandas.read_csv('vgsales.csv'))
 
 def create_chart(data_frame):
     """ Create chart """
