@@ -18,12 +18,11 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 **Other Language:** HTML, CSS, JavaScript
 
 ## Group Members
-- Teerapat Kraisrisirikul *(Saint)* - [810Teams](https://github.com/810Teams)
-- Supakit Theanthunyakit *(Pok)* - [POKINBKK](https://github.com/POKINBKK)
-- Kawisara Bunyen *(Cartoon)* - [zelotype](https://github.com/zelotype)
-- Kazuya Komatsu *(Ya)* - [yakung](https://github.com/yakung)
-- Apisiya Ngurnyam *(Platty)* - [Apisiya](https://github.com/Apisiya)
-- Apisit Wetmaha *(Fuse)* - [Apisit60070114](https://github.com/Apisit60070114)
+
+|<img src="https://avatars0.githubusercontent.com/u/26340809?s=400&u=7297bdffc0500060bece024fe4785493fc62e2c2&v=4)" width="100px" height="100px"/>||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|[@810Teams](https://github.com/810Teams)|[@POKINBKK](https://github.com/POKINBKK)|[@zelotype](https://github.com/zelotype)|[@yakung](https://github.com/yakung)|[@Apisiya](https://github.com/Apisiya)|[@Apisit60070114](https://github.com/Apisit60070114)|
+|Teerpat Kraisrisirikul|Supakit Theanthunyakit|Kawisara Bunyen|Kazuya Komatsu|Apisiya Ngurnyam|Apisit Wetmaha|
 
 ## Credits
 - [[View]](https://www.kaggle.com/gregorut/videogamesales) Video Game Sales dataset from Kaggle  
