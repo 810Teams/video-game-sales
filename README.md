@@ -24,17 +24,9 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 - Apisiya N. *(Platty)* - [Apisiya](https://github.com/Apisiya)
 - Apisit W. *(Fuse)* - [Apisit60070114](https://github.com/Apisit60070114)
 
-____________________
-
-<b>Credits:</b>
-  <ul>
-    <li><a target="_blank" href="https://www.kaggle.com/gregorut/videogamesales">(View)</a> Video Game Sales dataset from Kaggle</li>
-    <li><a target="_blank" href="http://www.vgchartz.com">(View)</a> Original database from VGChartz</li>
-    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/agency/">(View)</a> Agency Template from Start Bootstrap</li>
-    <li><a target="_blank" href="https://startbootstrap.com/template-overviews/full-slider/">(View)</a> Full Slider Template from Start Bootstrap</li>
-    <li><a target="_blank" href="http://ianlunn.github.io/Hover/">(View)</a> Hover Effects by Ian Lunn <i>(hover.css)</i></li>
-  </ul>
-
-____________________
-
-<i>Thank you, from group members.</i>
+## Credits
+- [[View]](https://www.kaggle.com/gregorut/videogamesales) Video Game Sales dataset from Kaggle  
+- [[View]](http://www.vgchartz.com) Original database from VGChartz  
+- [[View]](https://startbootstrap.com/template-overviews/agency/) Agency Template from Start Bootstrap  
+- [[View]](https://startbootstrap.com/template-overviews/full-slider/) Full Slider Template from Start Bootstrap  
+- [[View]](http://ianlunn.github.io/Hover/) Hover Effects by Ian Lunn *(hover.css)*  
