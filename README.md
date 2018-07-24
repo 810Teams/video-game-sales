@@ -18,12 +18,12 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 **Other Language:** HTML, CSS, JavaScript
 
 ## Group Members
-- Teerapat K. *(Saint)* - [810Teams](https://github.com/810Teams)
-- Supakit T. *(Pok)* - [POKINBKK](https://github.com/POKINBKK)
-- Kawisara B. *(Cartoon)* - [zelotype](https://github.com/zelotype)
-- Kazuya K. *(Ya)* - [yakung](https://github.com/yakung)
-- Apisiya N. *(Platty)* - [Apisiya](https://github.com/Apisiya)
-- Apisit W. *(Fuse)* - [Apisit60070114](https://github.com/Apisit60070114)
+- Teerapat Kraisrisirikul *(Saint)* - [810Teams](https://github.com/810Teams)
+- Supakit Theanthunyakit *(Pok)* - [POKINBKK](https://github.com/POKINBKK)
+- Kawisara Bunyen *(Cartoon)* - [zelotype](https://github.com/zelotype)
+- Kazuya Komatsu *(Ya)* - [yakung](https://github.com/yakung)
+- Apisiya Ngurnyam *(Platty)* - [Apisiya](https://github.com/Apisiya)
+- Apisit Wetmaha *(Fuse)* - [Apisit60070114](https://github.com/Apisit60070114)
 
 ## Credits
 - [[View]](https://www.kaggle.com/gregorut/videogamesales) Video Game Sales dataset from Kaggle  
