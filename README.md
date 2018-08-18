@@ -1,12 +1,12 @@
 # Video-Game-Sales
 This project is a part of the subject Problem Solving in Information Technology *(PSIT)*, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
 
-This project is about doing data analysis. We've chosen the title *Video Game Sales* for this project. Our main target is to determine factors that affects the video game sales.
+This project is about doing data analysis. We've chosen the title *Video Game Sales* for this project. Our main target is to determine factors that affects the video game sales, starting from 1980 to 2016.
 
 ## Information
 
 **Project Site:** https://810teams.github.io/Video-Game-Sales/  
-**Last Updated:** 13th December 2017  
+**Last Updated:** 18th August 2018  
 **Project Status:** Completed / Discontinued
 
 ## Statistics
