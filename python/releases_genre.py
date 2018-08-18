@@ -16,7 +16,7 @@ def main():
     chart.x_labels = range(1980, 2017)
     chart.x_labels_major_count = 8
     chart.show_minor_x_labels = False
-    chart.y_labels = [i for i in range(0, 1401, 200)]
+    chart.y_labels = [i for i in range(0, 1601, 200)]
     chart.y_labels_major_every = 5
     chart.truncate_label = 5
     chart.legend_at_bottom = True
@@ -25,7 +25,7 @@ def main():
     chart.y_title = "Video Games Amount"
 
     for i in data_genre:
-        temp = project.fill_missing_year([[j[1], j[2]] for j in data_year if j[0] == i])
+        temp = project.fill_missing_year([[int(float(j[1])), j[2]] for j in data_year if j[0] == i])
         chart.add(i, [j[1] for j in temp])
 
     chart.render_to_file("releases_genre.svg")

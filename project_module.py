@@ -1,10 +1,8 @@
 """
-
-Project Class File (project)
-Designed for PSIT Project - Video Game Sales
-Version: 2.1.3
-by Teerapat Kraisrisirikul
-
+    Project Class File (project)
+    Designed for PSIT Project - Video Game Sales
+    Version: 2.2.0
+    by Teerapat Kraisrisirikul
 """
 
 import numpy, pandas
@@ -14,18 +12,19 @@ class project:
     consoles  = ['2600', '3DO', 'DC', 'GC', 'GEN', 'N64',
                  'NES', 'NG', 'PCFX', 'PS', 'PS2', 'PS3',
                  'PS4', 'SAT', 'SCD', 'SNES', 'TG16', 'Wii',
-                 'WiiU', 'X360', 'XB', 'XOne']
+                 'WiiU', 'X360', 'XB', 'XOne', 'X']
     handhelds = ['3DS', 'DS', 'GB', 'GBA', 'GG', 'PSP',
-                 'PSV', 'WS']
+                 'PSV', 'WS', 'G']
     windows   = ['PC']
 
     def fill_missing_year(data_list):
         """ Fill missing year data by using dictionary """
+        data_list = [[int(float(i[0])), i[1]] for i in data_list]
         data_list = dict(data_list)
         for i in range(1980, 2017):
-            if (i in data_list) == False:
+            if (i not in data_list):
                 data_list[i] = 0
-        return [j for j in [[i, data_list[i]] for i in sorted(data_list)] if j[0] < 2017]
+        return [j for j in [[i, data_list[i]] for i in sorted(data_list)] if j[0] < 2017 and j[0] >= 1980]
 
     def platform_convert(platform):
         """ Returns a platform type of a single platform"""

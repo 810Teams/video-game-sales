@@ -59,6 +59,7 @@ def create_chart(hvgc, hhgc, msw):
     chart.x_labels = [i for i in range(1980, 2017)]
     chart.x_labels_major_count = 8
     chart.show_minor_x_labels = False
+    chart.y_labels = [i for i in range(0, 18001, 2000)]
 
     chart.legend_at_bottom = True
     chart.legend_at_bottom_columns = 3

@@ -48,7 +48,7 @@ def create_chart(ac, ad, fi, mi, pl, pu, ra, ro, sh, si, sp, st):
     chart.x_labels = [i for i in range(1980, 2017)]
     chart.x_labels_major_count = 8
     chart.show_minor_x_labels = False
-    chart.y_labels = [i for i in range(0, 601, 100)]
+    chart.y_labels = [i for i in range(0, 701, 100)]
     chart.truncate_label = 5
     chart.legend_box_size = 16
 
