@@ -30,9 +30,9 @@ class project:
         """ Returns a platform type of a single platform"""
         if platform in project.consoles:
             return 'Home Video Game Consoles'
-        if platform in project.handhelds:
+        elif platform in project.handhelds:
             return 'Handheld Game Consoles'
-        if platform in project.windows:
+        elif platform in project.windows:
             return 'Microsoft Windows'
         return None
 
