@@ -30,3 +30,7 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 - [[View]](https://startbootstrap.com/template-overviews/agency/) Agency Template from Start Bootstrap  
 - [[View]](https://startbootstrap.com/template-overviews/full-slider/) Full Slider Template from Start Bootstrap  
 - [[View]](http://ianlunn.github.io/Hover/) Hover Effects by Ian Lunn *(hover.css)*  
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
