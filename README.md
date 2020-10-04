@@ -15,7 +15,7 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 **Completed:** 13th December 2017  
 **Total Days:** 34 Days  
 **Main Language:** Python  
-**Other Language:** HTML, CSS, JavaScript
+**Other Languages:** HTML, CSS, JavaScript
 
 ## Group Members
 
