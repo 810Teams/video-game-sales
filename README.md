@@ -5,7 +5,7 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 
 ## Information
 
-**Project Site:** https://810teams.github.io/Video-Game-Sales/  
+**Project Site:** https://810teams.github.io/video-game-sales/  
 **Last Updated:** 18th August 2018  
 **Project Status:** Completed / Discontinued
 
